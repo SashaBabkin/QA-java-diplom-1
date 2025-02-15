@@ -31,7 +31,15 @@ public class BunTest {
         return new Object[][] {
                 {name1, price1},
                 {name2, price2},
-                {name3, price3}
+                {name3, price3},
+                {name1, 0F},
+                {name1, -200F},
+                {name1, 666.66F},
+                {"Другая булка", 300F},
+                {"12345", 300F},
+                {"@#$%", 300F},
+                {"", 300F},
+                {null, 300F}
         };
     }
 
